@@ -1,5 +1,5 @@
 FROM node:16
-WORKDIR /usr/src/app
-COPY ./ /usr/src/app
+WORKDIR /react-app
+COPY ./ /react-app
 RUN npm install --force
-CMD [node, index.js
+CMD npm start
