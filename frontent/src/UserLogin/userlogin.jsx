@@ -17,7 +17,7 @@ const Login = () => {
       Name: name,
       PassWord: password
     }
-    axios.post("http://localhost:5000/Moi/create", data)
+    axios.post("http://15.207.88.22/Moi/create", data)
 
       .then((result) => {
         if (result.data) {
